@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8059248493399735338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 173472, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_Name
+      value: TankAI
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446194, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507708, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507708, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507708, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_Size.z
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507708, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11409376, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_MaxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11443146, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_AI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22470720, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22470720, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22487106, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822518353279334600, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+      propertyPath: m_TankIndexManager
+      value: 
+      objectReference: {fileID: 2870660015159044341}
+    m_RemovedComponents:
+    - {fileID: 5059432242605588651, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+--- !u!1 &8059248493399890314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173472, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+  m_PrefabInstance: {fileID: 8059248493399735338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2870660015159044341 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5192247799311865055, guid: 756d3a6506f2f8241b4e8badde68567a, type: 3}
+  m_PrefabInstance: {fileID: 8059248493399735338}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6475975a2d2f3f40876f8f1c0135782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8971833773620335881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56929c83626becf4eaadf4fe5d62d38a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TeamList: {fileID: 11400000, guid: 9199d870a5a9dc648ab4cc8adb4a91b4, type: 2}
+  m_SensedTank: {fileID: 11400000, guid: a1527205f050bae41a451687dda0efbd, type: 2}
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_DetectionRange: 30
+--- !u!114 &-7734663040450953690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea21bb9b29134e41aa54dea662039b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5420073055571369192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703a0fc2dea8b564db3f69917fec5b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RayCastBackLength: 1
+  m_RayCastFrontLength: 10
+  m_RayCastAnglesOfResearch: 2
+  m_SensingAltitudeFactor: 0.2
+--- !u!114 &-529812946582353294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee79a86e66c79d42b17cc1aa0e3723c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PathFound: 0
+  m_TargetPos: {x: 0, y: 0, z: 0}
+  m_RadiusTolerance: 1
+  m_NavManager: {fileID: 1002921781810151909}
+  m_ListWayPoints: []
+--- !u!114 &-270030048353792997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86183d02e7dec8e4cb9030de716c105f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FireMode: {fileID: 11400000, guid: b2f1d6ccf059a864cac29ed1d30f7ed8, type: 2}
+  m_TargetEstimatedPos: {fileID: 11400000, guid: f532b5e7d1e68034fa0106e2edb3777f, type: 2}
+  m_TargetTimeToReachEstimatedPos: {fileID: 11400000, guid: 09dba9119b35d574886041b1836e89f6, type: 2}
+  m_FireRange: 13
+  m_AngularTolerance: 5
+  m_RadiusTolerance: 0.5
+  m_ShellSpeed: 20
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_FireCommand: {fileID: 11400000, guid: 2d605a6dfd62f8c40a958ec9d91e5c6b, type: 2}
+  m_GameOptions: {fileID: 11400000, guid: 55111c7234e1c384da5f6b364515a788, type: 2}
+  m_TankTargetPos: {fileID: 11400000, guid: 5ce8e305392138a4d8eba2d506056f2b, type: 2}
+--- !u!114 &723087465036166876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734e3b698acba26419764773636d1c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TankTarget: {fileID: 11400000, guid: 5e32816c7cc3d5c45a9f3774b43ea373, type: 2}
+  m_TankTargetPos: {fileID: 11400000, guid: 5ce8e305392138a4d8eba2d506056f2b, type: 2}
+  m_TankTargetLastPos: {fileID: 11400000, guid: 7fdfa2827b785074baf5984d30b3b299, type: 2}
+  m_TankTargetSpeed: {fileID: 11400000, guid: b99aff4a0450cdf4ca954e751794550e, type: 2}
+  m_TankTargetLastSpeed: {fileID: 11400000, guid: daa3f7238862fd94c88a248be11e888b, type: 2}
+  m_TankTargetEstimatedPos: {fileID: 11400000, guid: f532b5e7d1e68034fa0106e2edb3777f, type: 2}
+  m_TankTargetTimeToReachEstimatedPos: {fileID: 11400000, guid: 09dba9119b35d574886041b1836e89f6, type: 2}
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_ShellSpeed: 20
+  m_MaxStepAngle: 3.6
+  m_MaxStepDist: 12
+  m_MaxEstimationStep: 1000
+--- !u!114 &1002921781810151909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23949b450cfe35f4d84fbee2acdaef95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DijkstraManager: {fileID: 8013724432126141267}
+  m_AStarManager: {fileID: 7912885149352023125}
+  m_NavMeshManager: {fileID: -7734663040450953690}
+  m_ClassGrid: {fileID: 11400000, guid: c2cdb1d667f9ebd4593636a815576c63, type: 2}
+  m_AlgorithmMode: 1
+--- !u!114 &2861812033467588280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3421e4b7ee195841a9088827e836e84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetTank: {fileID: 11400000, guid: 5e32816c7cc3d5c45a9f3774b43ea373, type: 2}
+  m_LastTargetTank: {fileID: 11400000, guid: 6a2b273e200acfe4188ed97cfacfedea, type: 2}
+  m_TargetCount: {fileID: 11400000, guid: 3ed543f7d475df0459bb2b69d333043e, type: 2}
+  m_SensedTank: {fileID: 11400000, guid: a1527205f050bae41a451687dda0efbd, type: 2}
+  m_TankIndexManager: {fileID: 2870660015159044341}
+--- !u!114 &3574630722196496598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3984f9d854f752f4ab9a62a297203f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TankBehaviorTree: {fileID: 11400000, guid: c8d953d44123f8f4e85dcf6c4633132e, type: 2}
+  m_TeamBehaviorTrees: {fileID: 0}
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_TreeType: 0
+  m_DebugMode: 0
+--- !u!114 &7912885149352023125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5772167c9337c02459eac3cc38d9b0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8013724432126141267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d1b95b80e7344429a39eafbd28372c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8274096779164622947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf66744ef2e1c1408544c353987d28c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TeamList: {fileID: 11400000, guid: 9199d870a5a9dc648ab4cc8adb4a91b4, type: 2}
+  m_SensedTank: {fileID: 11400000, guid: a1527205f050bae41a451687dda0efbd, type: 2}
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_CapturePoint: {fileID: 11400000, guid: c01b950aa9570d54fa38164d9821e586, type: 2}
+  m_AttackMaxAngle: 20
+  m_AttackMaxDistance: 20
+  m_DebugMode: 0
+--- !u!114 &8785127412315307360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059248493399890314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3b8e79dc6bbbd4fba9391b8f52b220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MoveInstructions: {fileID: 11400000, guid: 1ff9bbaff6c6f334fbe499415e615233, type: 2}
+  m_FirePlacementRange: 13
+  m_AnleClamp: 20
+  m_RadiusTolerance: 0.5
+  m_AngularTolerancePercentage: 0.1
+  m_TankIndexManager: {fileID: 2870660015159044341}
+  m_MoveAxis: {fileID: 11400000, guid: 0cda5be7a882b8846b1c69802ab77e6f, type: 2}
+  m_TurnAxis: {fileID: 11400000, guid: cbe5ea80729d4d14f824d3625388bca9, type: 2}
+  m_TargetTank: {fileID: 11400000, guid: 5e32816c7cc3d5c45a9f3774b43ea373, type: 2}
+  m_LastTargetTank: {fileID: 11400000, guid: 6a2b273e200acfe4188ed97cfacfedea, type: 2}
+  m_TargetPosContainer: {fileID: 11400000, guid: 5501b054b19855e47b6a07bf55f3fe11, type: 2}
+  m_TargetPointContainer: {fileID: 11400000, guid: f9e424692237dfe47948802708026f16, type: 2}
+  m_PathManager: {fileID: -529812946582353294}
+  m_GameOptions: {fileID: 11400000, guid: 55111c7234e1c384da5f6b364515a788, type: 2}
+  m_TankTargetPos: {fileID: 11400000, guid: 5ce8e305392138a4d8eba2d506056f2b, type: 2}
